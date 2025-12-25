@@ -1,0 +1,29 @@
+{
+  "name": "videostream-backend",
+  "version": "1.0.0",
+  "description": "A backend at chai aur code channel",
+  "keywords": [
+    "js",
+    "backend",
+    "chai"
+  ],
+  "homepage": "https://github.com/vector1505/VideoStream#readme",
+  "bugs": {
+    "url": "https://github.com/vector1505/VideoStream/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vector1505/VideoStream.git"
+  },
+  "license": "ISC",
+  "author": "VJ",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
